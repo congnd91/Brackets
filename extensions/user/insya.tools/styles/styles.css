@@ -1,0 +1,12 @@
+/* 
+ * Base Styles
+ */
+
+.autolink{
+    color: blue;
+    font-weight: bold;
+}
+    .autolink:hover{
+        color: red;
+        text-decoration: underline;
+    }

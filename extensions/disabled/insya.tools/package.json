@@ -1,0 +1,29 @@
+{
+    "name": "insya.tools",
+    "title": "Brackets Tools",
+    "description": "Brackets developer tools extension",
+    "homepage": "https://github.com/yasinkuyu/brackets-tools",
+    "version": "0.2.0",
+	"author": {
+		"name": "Yasin Kuyu",
+		"email": "yasinkuyu@gmail.com",
+		"url": "https://github.com/yasinkuyu"
+    },
+    "author": "Yasin Kuyu <yasinkuyu@gmail.com>",
+    "keywords": [
+       "Highlight Word", "Html5 Template", "Remove Empty / Break Lines", "To Upper / Lower / Title Case", "Word To Array", "Word To List", "Line To List", "Html Encode / Docode", "URL Encode / Decode", "Html Tag Remove/Strip", "Trim, Left Trim, Right Trim", "First, Last x Char Remove", "SEO Url", "Remove line numbers", "Remove duplicate lines"
+    ],
+    "categories": ["developer", "tools", "general", "editing"],
+    "dependencies": {
+        "child_process": "*"
+    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yasinkuyu/brackets-tools"
+	},
+    "license": "MIT",
+	"i18n": ["en", "tr", "de", "it", "zh", "pt", "ru", "cs"],
+    "engines": {
+        "brackets": ">=0.40.0"
+    }
+}

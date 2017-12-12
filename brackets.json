@@ -1,0 +1,276 @@
+{
+    "insertHintOnTab": true,
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "fonts.fontSize": "12.5px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "themes.theme": "dark-theme",
+    "dnbard.documents-toolbar.icons": true,
+    "dnbard.documents-toolbar.smallIcons": false,
+    "dnbard.documents-toolbar.tooltip": false,
+    "dnbard.documents-toolbar.close_left": false,
+    "dnbard.documents-toolbar.workingFiles": true,
+    "dnbard.documents-toolbar.brackets_font": true,
+    "dnbard.documents-toolbar.grayscaleIcons": false,
+    "dnbard.documents-toolbar.showCloseButton": true,
+    "linting.collapsed": true,
+    "brackets-indent-guides.enabled": false,
+    "brackets-icons.iconset": "devicons",
+    "brackets-icons.secondary": false,
+    "dimitrk.exclude-indexing-filetree.excludeList": [
+        ".git(?!ignore)",
+        "dist",
+        "bower_components",
+        "node_modules"
+    ],
+    "bb.beautify.onSave": true,
+    "mikaeljorhult.bracketsAutoprefixer.enabled": true,
+    "edc.brackets-snippets.hints": [
+        {
+            "trigger": "cl",
+            "scope": "javascript",
+            "description": "console.log",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.log(${1:obj});${2}",
+            "source": "system"
+        },
+        {
+            "trigger": "cd",
+            "scope": "javascript",
+            "description": "console.dir",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.dir(${1:obj});${2}",
+            "source": "system"
+        },
+        {
+            "trigger": "ce",
+            "scope": "javascript",
+            "description": "console.error",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.error(${1:obj});${2}",
+            "source": "system"
+        },
+        {
+            "trigger": "cll",
+            "scope": "javascript",
+            "description": "console.log",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.log('${1:obj}:', ${2:obj});${3}",
+            "source": "system",
+            "mTime": 1510126191333
+        },
+        {
+            "trigger": "cdd",
+            "scope": "javascript",
+            "description": "console.dir",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.dir('${1:obj}:', ${1:obj});${2}",
+            "source": "system"
+        },
+        {
+            "trigger": "cee",
+            "scope": "javascript",
+            "description": "console.error",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "console.error('${1:obj}:', ${1:obj});${2}",
+            "source": "system"
+        },
+        {
+            "trigger": "ae",
+            "scope": "javascript",
+            "description": "document.addEventListener",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.addEventListener('${2:event}', function(e) {\n  ${3}\n});",
+            "source": "system"
+        },
+        {
+            "trigger": "rc",
+            "scope": "javascript",
+            "description": "document.removeChild",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.removeChild(${2:elem});${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "cel",
+            "scope": "javascript",
+            "description": "document.createElement",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.createElement(${2:elem});${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "gi",
+            "scope": "javascript",
+            "description": "document.getElementById",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.getElementById('${2:id}');${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "gc",
+            "scope": "javascript",
+            "description": "document.getElementsByClassName",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.getElementsByClassName('${2:class}');${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "gt",
+            "scope": "javascript",
+            "description": "document.getElementsByTagName",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.getElementsByTagName('${2:tag}');${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "qs",
+            "scope": "javascript",
+            "description": "document.querySelector",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.querySelector('${2:selector}');${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "qsa",
+            "scope": "javascript",
+            "description": "document.querySelectorAll",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:document}.querySelectorAll('${2:selector}');${3}",
+            "source": "system"
+        },
+        {
+            "trigger": "fe",
+            "scope": "javascript",
+            "description": "forEach",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:myArray}.forEach(function (${2:elem}) {\n  ${3}\n});",
+            "source": "system"
+        },
+        {
+            "trigger": "fi",
+            "scope": "javascript",
+            "description": "for in",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "for (${1:prop} in ${2:obj}) {\n  if (${2:obj}.hasOwnProperty(${1:prop})) {\n    ${3}\n  }\n}",
+            "source": "system"
+        },
+        {
+            "trigger": "fn",
+            "scope": "javascript",
+            "description": "function",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "function ${1:methodName} (${2:arguments}) {\n  ${3}\n}",
+            "source": "system"
+        },
+        {
+            "trigger": "afn",
+            "scope": "javascript",
+            "description": "anonymous function",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "function (${1:arguments}) {\n  ${2}\n}",
+            "source": "system"
+        },
+        {
+            "trigger": "pr",
+            "scope": "javascript",
+            "description": "prototype",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {\n  ${4}\n};",
+            "source": "system"
+        },
+        {
+            "trigger": "sw",
+            "scope": "javascript",
+            "description": "switch statement",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "switch(${1:expression}) {\n  case ${2:value}:\n    ${3}\n    break;\n  default:\n    break;\n}",
+            "source": "system"
+        },
+        {
+            "trigger": "si",
+            "scope": "javascript",
+            "description": "setInterval",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "setInterval(function() {\n  ${2}\n}, ${1:delay});",
+            "source": "system"
+        },
+        {
+            "trigger": "st",
+            "scope": "javascript",
+            "description": "setTimeout",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": "setTimeout(function() {\n  ${2}\n}, ${1:delay});",
+            "source": "system"
+        },
+        {
+            "description": "",
+            "text": "aasdas  ",
+            "scope": "html",
+            "trigger": "ul",
+            "mTime": 1510117001450
+        },
+        {
+            "trigger": "bi",
+            "scope": "_any",
+            "description": "background image",
+            "tag": "VanillaJS",
+            "tagHide": true,
+            "text": " background-image: url(../images/${1:obj}'); ${2}${3}",
+            "source": "system",
+            "mTime": 1510127485784
+        },
+        {
+            "text": "background-repeat: ${1:no-repeat}; ${2}",
+            "scope": "_any",
+            "trigger": "br",
+            "description": "background repeat",
+            "mTime": 1510126882612
+        },
+        {
+            "text": "   background-position:${1:top center};${2}",
+            "trigger": "bp",
+            "description": "background position",
+            "scope": "_any",
+            "mTime": 1510127372605
+        },
+        {
+            "trigger": "back",
+            "description": "background",
+            "text": "background: url(\"../images/${1:obj}\") ${2}${3:no-repeat} ${4:center center}; ${5}  ${6} ",
+            "scope": "_any",
+            "mTime": 1512701430633
+        },
+        {
+            "trigger": "ra",
+            "description": "radius",
+            "scope": "_any",
+            "text": "border-radius:${1:10px}; ${2}",
+            "mTime": 1510128437334
+        }
+    ],
+    "closeBrackets": false,
+    "livedev.multibrowser": false
+}
